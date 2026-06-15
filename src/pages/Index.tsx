@@ -221,6 +221,68 @@ export default function Index() {
         </div>
       </section>
 
+      {/* SHOWCASE GALLERY */}
+      <section className="px-6 pb-12">
+        <div className="max-w-6xl mx-auto">
+          <RevealSection>
+            <div className="grid grid-cols-12 gap-4 md:gap-6">
+              <div className="col-span-12 md:col-span-7 group overflow-hidden">
+                <div className="aspect-[16/11] overflow-hidden bg-[#f0eeea] relative">
+                  <img
+                    src="https://cdn.poehali.dev/projects/9d6c6b6b-3cae-453b-a4fd-77ccbfcc30e3/files/dfe2f487-245b-422a-a63d-557a4e838911.jpg"
+                    alt="Editorial design"
+                    className="w-full h-full object-cover transition-transform duration-[1.2s] ease-out group-hover:scale-105"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/40 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
+                  <div className="absolute bottom-6 left-6 text-white opacity-0 translate-y-3 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-500">
+                    <div className="text-xs tracking-[0.3em] uppercase mb-1 text-white/70">Editorial</div>
+                    <div className="font-display text-2xl font-light">Печатный разворот</div>
+                  </div>
+                </div>
+              </div>
+              <div className="col-span-12 md:col-span-5 group overflow-hidden">
+                <div className="aspect-[16/11] h-full overflow-hidden bg-[#f0eeea] relative">
+                  <img
+                    src="https://cdn.poehali.dev/projects/9d6c6b6b-3cae-453b-a4fd-77ccbfcc30e3/files/4714b969-de24-4b1e-ac39-402b0c8b432c.jpg"
+                    alt="Typography poster"
+                    className="w-full h-full object-cover transition-transform duration-[1.2s] ease-out group-hover:scale-105"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/40 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
+                  <div className="absolute bottom-6 left-6 text-white opacity-0 translate-y-3 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-500">
+                    <div className="text-xs tracking-[0.3em] uppercase mb-1 text-white/70">Type</div>
+                    <div className="font-display text-2xl font-light">Постер</div>
+                  </div>
+                </div>
+              </div>
+              <div className="col-span-12 md:col-span-5 group overflow-hidden">
+                <div className="aspect-[16/11] h-full overflow-hidden bg-[#f0eeea] relative">
+                  <img
+                    src="https://cdn.poehali.dev/projects/9d6c6b6b-3cae-453b-a4fd-77ccbfcc30e3/files/e0b7ecf6-8dfd-4424-94dc-0b81dc6a0f1a.jpg"
+                    alt="Stationery branding"
+                    className="w-full h-full object-cover transition-transform duration-[1.2s] ease-out group-hover:scale-105"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/40 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
+                  <div className="absolute bottom-6 left-6 text-white opacity-0 translate-y-3 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-500">
+                    <div className="text-xs tracking-[0.3em] uppercase mb-1 text-white/70">Branding</div>
+                    <div className="font-display text-2xl font-light">Фирменный стиль</div>
+                  </div>
+                </div>
+              </div>
+              <div className="col-span-12 md:col-span-7 flex items-center justify-center bg-[#1a1a1a] aspect-[16/11] md:aspect-auto p-10">
+                <div className="text-center">
+                  <div className="font-display text-[clamp(2.5rem,6vw,5rem)] font-light leading-none text-white">
+                    100<span className="text-[#666]">%</span>
+                  </div>
+                  <div className="text-xs tracking-[0.3em] uppercase text-[#888] mt-4">
+                    внимания к деталям
+                  </div>
+                </div>
+              </div>
+            </div>
+          </RevealSection>
+        </div>
+      </section>
+
       {/* SERVICES */}
       <section id="services" className="py-32 px-6">
         <div className="max-w-6xl mx-auto">
